@@ -27,5 +27,5 @@ while True:
     GPIO.output(ledMid, GPIO.LOW)
     time.sleep(0.075)
     GPIO.output(ledLeft, GPIO.LOW)
-
+    time.sleep(0.075)
 GPIO.cleanup()
