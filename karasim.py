@@ -14,7 +14,7 @@ GPIO.setup(ledMid, GPIO.OUT)
 GPIO.setup(ledLeft, GPIO.OUT)
 
 
-while TRUE:
+while True:
     time.sleep(0.075)
     GPIO.output(ledLeft, GPIO.HIGH)
     time.sleep(0.075)
